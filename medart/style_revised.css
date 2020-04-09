@@ -661,7 +661,8 @@ ul.tabs-nav .tab-nav.active {
 --------------------------------------------------------------*/
 .top-area {
     padding: 120px 0;
-    height: 400px;
+    /*height: 400px; */
+    height: 550px;
 }
 
 .top-b{
