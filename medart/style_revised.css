@@ -63,7 +63,7 @@ a:hover, a:active {
     margin-top: 6px;
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 992px){
     .site-branding {
         width: auto;
     }
@@ -150,7 +150,7 @@ a:hover, a:active {
 }
 
 .site-navigation ul li {
-    margin: 0 24px;
+    margin: 0 12px;
 }
 
 .site-navigation ul li a {
@@ -186,7 +186,7 @@ a:hover, a:active {
     color: #fff !important;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
     .site-navigation ul {
         position: relative;
         top: auto;
@@ -290,6 +290,23 @@ a:hover, a:active {
         width: 30px;
         margin-left: 15px;
     }
+}
+
+/*--------------------------------------------------------------
+# Top Area
+--------------------------------------------------------------*/
+.top-area {
+    padding: 120px 0;
+    /*height: 400px; */
+    height: 550px;
+}
+
+.top-b{
+    height: 200px;
+}
+
+.top-area img{
+    height: 400px;
 }
 
 /*--------------------------------------------------------------
@@ -654,23 +671,6 @@ ul.tabs-nav .tab-nav.active {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-}
-
-/*--------------------------------------------------------------
-# Top Area
---------------------------------------------------------------*/
-.top-area {
-    padding: 120px 0;
-    /*height: 400px; */
-    height: 550px;
-}
-
-.top-b{
-    height: 200px;
-}
-
-.top-area img{
-    height: 400px;
 }
 
 /*--------------------------------------------------------------
@@ -1286,11 +1286,11 @@ ul.tabs-nav .tab-nav.active {
 /*--------------------------------------------------------------
 # Pagination
 --------------------------------------------------------------*/
-/*@media screen and (min-width: 992px){
+@media screen and (min-width: 992px){
     .pagination {
         margin-bottom: 100px;
     }
-}*/
+}
 
 .pagination a {
     margin-right: 16px;
