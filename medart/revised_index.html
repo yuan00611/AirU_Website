@@ -18,13 +18,32 @@
 
 
     <!-- Styles -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_revised.css">
     <script src="js/custom.js"></script>
 </head>
 <body>
     <header class="site-header">
 
-
+        <div class="header-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 ">
+                        <div class="header-top-area-left">
+                            <a href="#"> <i class="fa fa-phone"></i> (510)-980-4100</a>
+                            <a href="#"> Urgent Care </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 d-flex justify-content-end ">
+                        <div class="header-top-area-right">
+                            <a href="#"> <i class="fa fa-search"></i> </a>
+                            <a href="#"> Language </a>
+                            <a href="#"> Patient Portal </a>
+                            <a href="#"> Donate Now! </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <div class="nav-bar">
@@ -35,11 +54,24 @@
                            <a class="d-block" href="index.html" rel="home"><img class="d-block" src="images/logo.png" alt="logo"></a>
                         </div><!-- .site-branding -->
 
-                        <nav class="site-navigation d-flex justify-content-end align-items-center">
-                            <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
+                        <nav class="site-navigation d-flex justify-content-end ">
+                            <ul id="menu" class="d-flex flex-column flex-lg-row justify-content-lg-end">
 
                                 <!-- <li class="current-menu-item"><a href="index.html">Home</a></li> -->
-                                <li><a href="about.html">About us</a></li>
+                                <li>
+                                    <a class="prett" href="#">About us </a>
+                                    <ul class="menus">
+                                        <li><a href="blog.html">blog</a></li>
+                                        <li><a href="single-blog.html">single-blog</a></li>
+                                        <li class='has-submenu'><a class='prett' href='Dropdown 1' title='Dropdown 1'>Dropdown 1 + Sub Menu</a>
+                                            <ul class='submenu'>
+                                                <li><a href="#" title="Sub Menu">Sub Menu</a></li>
+                                                <li><a href="#" title="Sub Menu">Sub Menu 2</a></li>
+                                                <li><a href="#" title="Sub Menu">Sub Menu 3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
                                 <li><a href="services.html">Patient Care</a></li>
                                 <li><a href="services.html">Programs</a></li>
                                 <li><a href="news.html">News & Events</a></li>

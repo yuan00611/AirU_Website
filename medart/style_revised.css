@@ -153,7 +153,7 @@ a:hover, a:active {
     margin: 0 12px;
 }
 
-.site-navigation ul li a {
+.site-header .nav-bar .site-navigation ul li a {
     display: block;
     padding: 16px 0;
     font-size: 16px;
@@ -163,6 +163,55 @@ a:hover, a:active {
     text-decoration: none;
     transition: color .35s;
 }
+
+
+.site-header .nav-bar .site-navigation ul.menus {
+  height: auto;
+  width: 180px;
+  position: fixed;
+  z-index: 99;
+  display: none;
+  background: #F0F0F0;
+}
+
+#menu ul.menus li {
+  display: block;
+  /*width: 100%;*/
+  font: 12px Arial;
+  text-transform: none;
+}
+
+#menu li:hover ul.menus {
+  display: block;
+}
+
+#menu li:hover > a,
+#menu li a:hover {
+  background: #F0F0F0;
+}
+
+#menu li:hover ul.menus {
+  display: block
+}
+
+#menu ul.menus .submenu {
+  display: none;
+  position: fixed;
+  width: 180px;
+  /*left: 180px;*/
+  margin-left: 160px;
+  margin-top: -50px;
+}
+
+#menu ul.menus .submenu li {
+  background: #F0F0F0;
+}
+
+#menu ul.menus .has-submenu:hover .submenu {
+  display: block;
+}
+
+
 
 /*
 # Call Button
