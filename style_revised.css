@@ -160,13 +160,13 @@ a:hover, a:active {
     font-size: 16px;
     font-weight: 600;
     line-height: 1;
-    color: #404040;
+    /*color: #404040;*/
     text-decoration: none;
     transition: color .35s;
 }
 
 
-.site-header .nav-bar .site-navigation ul.menus {
+/*.site-header .nav-bar .site-navigation ul.menus {
   height: auto;
   width: 180px;
   position: fixed;
@@ -177,7 +177,7 @@ a:hover, a:active {
 
 #menu ul.menus li {
   display: block;
-  /*width: 100%;*/
+  /*width: 100%;
   font: 12px Arial;
   text-transform: none;
 }
@@ -199,7 +199,7 @@ a:hover, a:active {
   display: none;
   position: fixed;
   width: 180px;
-  /*left: 180px;*/
+  /*left: 180px;
   margin-left: 160px;
   margin-top: -50px;
 }
@@ -229,7 +229,7 @@ a:hover, a:active {
         display: none;
         position: fixed;
         width: 180px;
-        /*left: 180px;*/
+        /*left: 180px;
         margin-left: 350px;
         margin-top: 130px;
     }
@@ -253,13 +253,13 @@ a:hover, a:active {
         margin-left: 160px;
         margin-top: -50px;
     }
-}
+}*/
 
 /*
 # Mega Menu
 --------------------------------*/
 
-.mega-menu {
+/*.mega-menu {
     padding: 10px 0px ! important;
     width: 360px;
   border-radius: 0;
@@ -286,7 +286,7 @@ a:hover, a:active {
             border-bottom: 1px solid #ddd;
             }
       .mega-menu img { padding-bottom: 10px;}
-
+*/
 /* Disable Toggle style
 ********************************/  
 
@@ -344,7 +344,7 @@ a:hover, a:active {
          /* -webkit-transform: translate3d(0, 0, 0); Webkit Hardware Acceleration*/ 
          -webkit-backface-visibility: hidden; /* Safari Flicker Fix #2 */
          -webkit-transform: translateZ(0);
-}   
+} */  
 
 
 /*
@@ -369,6 +369,17 @@ a:hover, a:active {
     color: #fff !important;
 }
 
+.site-navigation ul li a:hover,
+.site-navigation ul li.current-menu-item a {
+    color: #9C182F;
+    border-bottom: 3px solid #9C182F;
+}
+
+.site-navigation ul li a:focus{
+    color: #9C182F;
+    border: 3px solid #9C182F;
+}
+
 @media screen and (min-width: 992px) {
     .site-navigation ul {
         position: relative;
@@ -387,10 +398,7 @@ a:hover, a:active {
     }
 }
 
-.site-navigation ul li a:hover,
-.site-navigation ul li.current-menu-item a {
-    color: #18a3eb;
-}
+
 
 /*--------------------------------------------------------------
 # Hero Section
