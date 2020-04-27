@@ -40,6 +40,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .site-header {
     position: relative;
+    height: 140px;
 }
 
 .nav-bar {
@@ -48,7 +49,7 @@ a:hover, a:active {
     left: 0;
     z-index: 9999;
     width: 100%;
-    padding: 20px 0;
+    /*padding: 20px 0;*/
 }
 
 /*
@@ -475,7 +476,7 @@ a:hover, a:active {
 }
 
 /*--------------------------------------------------------------
-# Top Area
+# Top Area(homepage)
 --------------------------------------------------------------*/
 .top-area {
     padding: 30px 0;
@@ -501,7 +502,13 @@ a:hover, a:active {
 
 .top-img h2{
     color: #FFFFFF;
-    font-size: 44px;
+    font-size: 32px;
+    background-color: rgba(54, 80, 114,0.8);
+
+}
+
+.top-b a{
+    color: #FFFFFF;
 }
 
 .top-b{
@@ -509,6 +516,10 @@ a:hover, a:active {
     color: #FFF;
     border:1px solid #FFF;
     
+}
+
+.top-b-indi h2{
+    font-size: 24px;
 }
 
 
@@ -524,9 +535,95 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Home Page
 --------------------------------------------------------------*/
-.home h2{
-    text-align: center !important;
+/*
+# News
+--------------------------------*/
+.home-why {
+    padding: 50px 10px;
 }
+
+.home-why h2 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #404040;  
+    text-align: center;  
+}
+
+.home-why-wrap {
+    margin-bottom: 60px;
+}
+
+.home-why-wrap figure {
+    margin: 0;
+}
+
+.home-why-wrap figure img {
+    width: 100%;
+}
+
+.home-why-wrap h2 {
+    margin-top: 24px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #404040;
+}
+
+
+.home-why-wrap h3 {
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #404040;
+    text-align: center;  
+}
+
+
+
+.home-why .post-metas {
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #828282;
+}
+
+.home-why .post-metas > div {
+    margin-right: 16px;
+}
+
+.home-why .post-metas label {
+    margin: 0;
+    color: #18a3eb;
+}
+
+.home-why .post-metas a {
+    color: #828282;
+}
+
+.home-why-wrap .entry-content {
+    margin-top: 32px;
+}
+
+.home-why-wrap .entry-content p {
+    font-size: 16px;
+    line-height: 2;
+    color: #242C35;
+}
+
+.posted-topic p{
+    color: #9C182F;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.home-news-wrap h3 {
+    /*margin-top: 24px;*/
+    font-size: 20px;
+    font-weight: 600;
+    color: #404040;
+    text-align: left;  
+}
+
 
 
 /*--------------------------------------------------------------
@@ -1786,11 +1883,12 @@ ul.tabs-nav .tab-nav.active {
 --------------------------------------------------------------*/
 .site-footer {
     position: relative;
-    padding: 48px 0;
-    background: url("images/footer-bg.png") no-repeat center #fff;
-    background-size: cover;
+    padding: 20px 0;
+    /*background: url("images/footer-bg.png") no-repeat center #fff;*/
+    /*background-size: cover;*/
     font-size: 14px;
-    color: #828282;
+    color: #FFF;
+    background-color: #365072;
 }
 
 .footer-widgets h2 {
@@ -1800,7 +1898,7 @@ ul.tabs-nav .tab-nav.active {
     margin-bottom: 24px;
     font-size: 18px;
     font-weight: 600;
-    color: #404040;
+    color: #FFF;
 }
 
 .foot-about p {
@@ -1825,7 +1923,7 @@ ul.tabs-nav .tab-nav.active {
 
 .foot-contact ul li span {
     display: inline-block;
-    color: #404040;
+    color: #FFF;
 }
 
 .foot-contact ul li span {
@@ -1843,7 +1941,13 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .foot-links ul li a {
-    color: #828282;
+    color: #FFF;
+}
+
+.footer-2 {
+    font-size: 14px;
+    background-color: #F6F7F9;
+    padding: 10px 0;
 }
 
 
