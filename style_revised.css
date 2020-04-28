@@ -508,7 +508,7 @@ a:hover, a:active {
     font-family: Open Sans;
 }
 
-.top-img h2{
+.top-img h1{
     color: #FFFFFF;
     font-size: 32px;
     background-color: rgba(54, 80, 114,0.8);
@@ -637,6 +637,11 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Location Page
 --------------------------------------------------------------*/
+
+.mapinfo_map{
+    margin-top: 80px;
+}
+
 .map-location{
     height: 200px;
     border: 1px solid black;
@@ -1448,15 +1453,17 @@ ul.tabs-nav .tab-nav.active {
 --------------------------------------------------------------*/
 .single-page .site-header {
     position: relative;
-    padding: 220px 0 140px;
-    background-color: #f0f4f8;
+    padding: 140px 0 140px;
+    /*background-color: #f0f4f8;*/
 }
 
 .single-page .site-header h1 {
-    margin-bottom: 0;
-    font-size: 60px;
+
+    padding-top: 60px;
+    padding-left: 15px;
+    font-size: 50px;
     font-weight: 600;
-    color: #404040;
+    color: #FFF;
 }
 
 .single-page .site-header .header-img {
@@ -1467,13 +1474,20 @@ ul.tabs-nav .tab-nav.active {
     height: auto;
 }
 
+.single-page .page-title{
+    background-color: #365072;
+    padding-bottom: 30px;
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-   font-size: 14px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 14px;
     font-weight: 500;
-    color: #828282;
+    color: #FFF;
 }
 
 .breadcrumbs ul {
@@ -1484,7 +1498,7 @@ ul.tabs-nav .tab-nav.active {
     position: relative;
     padding-right: 10px;
     margin-right: 5px;
-    color: #18a3eb;
+    color: #FCDF51;
 }
 
 .breadcrumbs li::after {
@@ -1494,7 +1508,7 @@ ul.tabs-nav .tab-nav.active {
     right: 0;
     width: 6px;
     height: 100%;
-    color: #828282;
+    color: #FFF;
 }
 
 .breadcrumbs li:nth-last-of-type(1)::after {
@@ -1502,7 +1516,7 @@ ul.tabs-nav .tab-nav.active {
                }
 
 .breadcrumbs a {
-    color: #828282;
+    color: #FFF;
 }
 
 /*--------------------------------------------------------------
@@ -1513,7 +1527,6 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .med-history h2,
-.medical-team h2,
 .quality-services h2 {
     margin-bottom: 48px;
     font-size: 48px;
@@ -1593,9 +1606,9 @@ ul.tabs-nav .tab-nav.active {
     padding: 100px 0;
 }
 
-.medical-team h2 {
+/*.medical-team h2 {
     margin-bottom: 56px;
-}
+}*/
 
 .medical-team-wrap {
     text-align: center;
@@ -1606,15 +1619,15 @@ ul.tabs-nav .tab-nav.active {
     border-radius: 20px;
 }
 
-.medical-team-wrap h4 {
-    margin-top: 32px;
+.medical-team-wrap h2 {
+    margin-top: 10px;
     font-size: 18px;
     font-weight: 600;
     color: #404040;
 }
 
-.medical-team-wrap h5 {
-    margin-top: 12px;
+.medical-team-wrap h3 {
+    margin-top: 10px;
     font-size: 14px;
     font-weight: 600;
     color: #828282;
