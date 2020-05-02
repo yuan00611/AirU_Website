@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Hello World</title>
+    <title>Patient Portal</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -22,12 +22,19 @@
     <script src="js/custom.js"></script>
 </head>
 <body class="single-page">
+    
+    <a id='skip-nav' class='screenreader-text' href='#main-content'>
+      Skip to main content
+    </a>
+    
+    
+    
     <header class="site-header">
         <div class="nav-bar">
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
-                        <div class="site-branding d-flex align-items-center">
+                        <div class="site-branding d-flex align-items-center" role="banner">
                             <a class="d-block" href="index.html" rel="home"><img class="d-block" src="images/logo.png" alt="logo"></a>
                         </div><!-- .site-branding -->
 
@@ -79,92 +86,90 @@
     
     
     
-    
-    <div class="container">
+<div class="container">
         <div class="row">
             
             
             <div class="col-12 col-lg-8">
                 <div class="the-news">
-                    <div class="row">
+                    <div class="row" role="main" id='main-content'>
                         
-                        
-                        
+                     
+                    <div role="region" aria-labelledby="region1">    
                         
                         <div class="col-12">
                             <div class="the-news-wrap">
                                
-                                    <header class="entry-header">
-                                    <h2>What's Lifelong Patient Portal?</h2>
-                                    </header>         
+                                    <div class="entry-header">
+                                    <h2 id="region1">What’s LifeLong Patient Portal - MyChart?</h2>
+                                    </div>         
                                     <div class="entry-content">
-                                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum </p>
+                                       <p>Access you and your family's health care 24/7 with MyChart – a free, personalized and secure program that helps you manage all aspects of your care. With MyChart, you can:</p>
                                         
-                                        
-                                        
-                                        <ol>
-                                            <li>ctetur adipiscing elit. Donec malesuad</li>
-                                            <li>ctetur adipiscing elit. Donec malesuad</li>
-                                            <li>ctetur adipiscing elit. Donec malesuad</li>
-                                            <li>ctetur adipiscing elit. Donec malesuad</li>
-                                        </ol>
-                                        
-                                        
-                                        
-                                       
-                                        
-                                       <p>Loremsem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum </p>
-                                    
-                                   
-                                </div>
-                         
-
-                            </div>
-                        </div>
-
-                      <div class="col-12">
-                            <div class="the-news-wrap">
-                               
-                                    <header class="entry-header">
-                                    <h2>New to Lifelong Patient Portal</h2>
-                                    </header>         
-                                    <div class="entry-content">
-                                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. </p>
-                                        
-                                        
-                                        
-                                       
-                                        <ol>
-                                            <li>ctetur adipiscing elit. Donec malesuad</li>
-                                            <li>ctetur adipiscing elit. Donec malesuad</li>
-                                            <li>ctetur adipiscing elit. Donec malesuad</li>
-                                            <li>ctetur adipiscing elit. Donec malesuad</li>
-                                        </ol>    
-                                        
-                                        
-                                        
+                                         <ul>
+                                            <li>View your medical history such as immunizations, allergies, current medications, and lab results</li>
+                                            <li>Request prescription refills and appointments</li>
+                                            <li>Review past and upcoming appointments</li>
+                                            <li>Communicate with your healthcare team</li>
+                                        </ul>
+                                         <p>If you are having a medical or psychiatric emergency, call 911 right away. For other non-emergency medical matters, call your doctor's office.</p>
                                         
                                     </div>
                          
 
+                              
                             </div>
                         </div>
+                        
+                    </div> <!--region1-->      
+                        
+                        
+                        
+                    <div role="region" aria-labelledby="region2">    
+                        
+                        <div class="col-12">
+                            <div class="the-news-wrap">
+                               
+                                    <div class="entry-header">
+                                    <h2 id="region2">New to LifeLong Patient Portal - MyChart</h2>
+                                    </div>         
+                                    <div class="entry-content">
+                                       <p>You can sign up MyChart in three convenient ways:</p>
+                                        
+                                         <ul>
+                                            <li>Register for MyChart online – If you received a 10-digit activation code at your last appointment, 
+                                                 <a href="https://mychart.ochin.org/MyChartLLMC/accesscheck.asp">click here to register online.</a>
+                                                If you don’t have the activation code, all you need to do is provide some basic information and 
+                                                <a href="https://mychart.ochin.org/MyChartLLMC/signup">Register without an activation code.</a></li>
+                                            <li>Register at your provider's office – At your next appointment, ask to set up a MyChart account and they can help you register.</li>
+                                            <li>Register by phone - Simply call to speak with LifeLong Medical Care representative at (510) 981-4100 ext. 8.</li>
+                                        </ul>
+                                         
+                                        
+                                    </div>
+                         
+
+                              
+                            </div>
+                        </div>
+                        
+                    </div> <!--region2-->   
+                        
+
                         
                         
             
                         
                         
                         
-                        
-                        
-                        
+ <div role="region" aria-labelledby="region3">                         
                         
                         <div class="col-12">
                             <div class="the-news-wrap">
                                
-                                    <header class="entry-header">
-                                    <h2>FAQ</h2>
-                                    </header>        
+                                <div class="entry-header">
+                                    <h2 id="region3">FAQ</h2>
+                                    </div>       
                          
 
                               
@@ -195,7 +200,7 @@
               aria-controls="sect1"
               id="accordion1id">
         <span class="Accordion-title">
-         What if I forgot my password?
+         IS THERE A MYCHART APP?
           <span class="Accordion-icon"></span>
         </span>
       </button>
@@ -206,7 +211,7 @@
          class="Accordion-panel">
       <div>
         <!-- Variable content within section, may include any type of markup or interactive widgets. -->
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. </p>
+          <p>MyChart is available for Apple® or Android™ so you can have access to your health care information anywhere you have a smartphone. Once you’ve downloaded the app, choose LifeLong Medical Care as your healthcare organization. Then log in with your username and password.</p>
    
       </div>
     </div>
@@ -216,7 +221,7 @@
               aria-controls="sect2"
               id="accordion2id">
         <span class="Accordion-title">
-           Why my token does not work?
+           HAVING TROUBLE LOGGING IN TO MYCHART?
           <span class="Accordion-icon"></span>
         </span>
       </button>
@@ -228,40 +233,17 @@
          hidden="">
       <div>
           
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. </p>
+           <p>Forgot your password? Having issues logging in? Contact a LifeLong Medical Care representative at (510) 981-4100 ext. 8. </p>
 
       </div>
     </div>
-    <h3>
-      <button aria-expanded="false"
-              class="Accordion-trigger"
-              aria-controls="sect3"
-              id="accordion3id">
-        <span class="Accordion-title">
-             Why my token does not work?
-          <span class="Accordion-icon"></span>
-        </span>
-      </button>
-    </h3>
-    <div id="sect3"
-         role="region"
-         aria-labelledby="accordion3id"
-         class="Accordion-panel"
-         hidden="">
-      <div>
-     
-          
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. </p>
-          
-          
-      </div>
-    </div>
+
   </div>
 </div>
                         
                   
                         
-            
+</div> <!--region3-->              
                         
                         
                         
@@ -279,22 +261,23 @@
             <div class="col-12 col-lg-4">
                 <div class="sidebar">
           
-
+                    <div role="complementary">    
+                    <!--<div class="sidebar-cats" > -->
                     <div class="sidebar-cats">
-                        <h2 class="widget-title">Established Users?</h2>
+                        <h2 class="widget-title">Sign-up/Log-in</h2>
 
                         
                        
                         
                                 
-                    <footer class="entry-footer mt-5">
-                                    <a class="button gradient-bg" href="#">Patient Portal</a>
-                    </footer>
+                    <div class="entry-footer mt-5">
+                                    <a class="button dark" href="https://www.lifelongmedical.org/contact-us-main/patient-portal.html">Patient Portal</a>
+                    </div>
                     </div>
 
                   
 
-             
+                 <!-- </div> -->
                     
              
                 </div>
@@ -302,21 +285,9 @@
         </div>
     </div>
 
-    <div class="subscribe-banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-8 offset-lg-2">
-                    <h2>Subscribe to our newsletter</h2>
 
-                    <form>
-                        <input type="email" placeholder="E-mail address">
-                        <input class="button gradient-bg" type="submit" value="Subscribe">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    
+    
     <footer class="site-footer">
         <div class="footer-widgets">
             <div class="container">

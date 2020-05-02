@@ -19,12 +19,17 @@
     <link rel="stylesheet" href="style_revised.css">
 </head>
 <body class="single-page">
+    
+    <a id='skip-nav' class='screenreader-text' href='#main-content'>
+      Skip to main content
+    </a>
+    
     <header class="site-header">
         <div class="nav-bar">
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
-                        <div class="site-branding d-flex align-items-center">
+                        <div class="site-branding d-flex align-items-center" role="banner">
                             <a class="d-block" href="index.html" rel="home"><img class="d-block" src="images/logo.png" alt="logo"></a>
                         </div><!-- .site-branding -->
 
@@ -75,7 +80,9 @@
 
     <div class="medical-team">
         <div class="container">
-            <div class="row">
+            <!--<div class="row" >-->
+           <div class="row" role="main" id='main-content'>
+
 
                 <div class="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
                     <div class="medical-team-wrap">

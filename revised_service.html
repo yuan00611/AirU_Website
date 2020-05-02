@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Hello World</title>
+    <title>Services</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -22,12 +22,17 @@
     <script src="js/custom.js"></script>
 </head>
 <body class="single-page">
+    
+    <a id='skip-nav' class='screenreader-text' href='#main-content'>
+      Skip to main content
+    </a>    
+    
     <header class="site-header">
         <div class="nav-bar">
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
-                        <div class="site-branding d-flex align-items-center">
+                        <div class="site-branding d-flex align-items-center" role="banner">
                             <a class="d-block" href="index.html" rel="home"><img class="d-block" src="images/logo.png" alt="logo"></a>
                         </div><!-- .site-branding -->
 
@@ -62,7 +67,7 @@
                             <li><a href="index.html">Home</a></li>
                             <!-- <li><a href="#">Patient Care</a></li>
                             <li><a href="#">Service</a></li> -->
-                            <li>Dental Care</li>
+                            <li>Service</li>
                         </ul>
                     </div><!-- .breadcrumbs -->
 
@@ -85,30 +90,46 @@
         <div class="row">
             <div class="col-12 col-lg-8">
                 <div class="the-news">
-                    <div class="row">
+                    
+                    <div class="row" role="main" id='main-content'>
+                    
+                      <div role="region" aria-labelledby="region1">      
+                        
                         <div class="col-12">
                             <div class="the-news-wrap">
                                
-                                    <header class="entry-header">
-                                    <h2>Dental Caree</h2>
-                                    </header>         
+                                    <div class="entry-header">
+                                    <h2 id="region1">Healthy Teeth, Healthy Heart</h2>
+                                    </div>         
                                     <div class="entry-content">
-                                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. </p>
+                                       <p>Our goal is to ensure that all LifeLong patients have healthy smiles. We want to see our patients regularly for cleanings and check-ups. By finding and treating dental issues before they become serious health problems, we help provide a better, healthier life for everyone at every age. At LifeLong, we offer comprehensive dental care for infants, elders, and those in between.</p>
+                                       <p>Studies have shown that there is a connection between tooth decay and heart disease. So make sure you take care of your teeth. Brush and floss them two times a day, and see a dentist for regular cleanings and checkups every six months.</p>
+                                       <p>"Smiling comes a lot easier to some children thanks to LifeLong Dental Care’s free dental days, held on designated weekends throughout the year. Screenings, cleanings, and other services are provided regardless of insurance status."</p>    
                                     </div>
                          
 
-                              
                             </div>
                         </div>
+                        
+                        
+                        <div class="col-12">
+                            <div class="the-news-wrap">
+                                <iframe width="650" height="365" src="https://www.youtube.com/embed/pZHHwM3HYX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="entry-content">
+                                       <p>LifeLong Dental Care offers services such as:</p>
+                                </div>
+                            </div>
+                        </div>
+                        
 
                        <div class="col-12">
                             <div class="the-news-wrap">
                                
-                                    <header class="entry-header">
+                                    <div class="entry-header">
                                     <h2>Pediatric Dentistry</h2>
-                                    </header>         
+                                    </div>         
                                     <div class="entry-content">
-                                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. </p>
+                                       <p>Focusing on the delivery of oral health care to children from infancy throughout their teenage years. A pediatric dentist provides treatment on youth of all ages in various stages of their dentition development. Children can be seen by a pediatric dentist as soon as their first tooth develops.</p>
                                     </div>
                          
 
@@ -117,14 +138,14 @@
                         </div>
                         
                         
-                        <div class="col-12">
+                       <div class="col-12">
                             <div class="the-news-wrap">
                                
-                                    <header class="entry-header">
+                                    <div class="entry-header">
                                     <h2>Adult Dentistry</h2>
-                                    </header>         
+                                    </div>         
                                     <div class="entry-content">
-                                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. </p>
+                                       <p>An essential need for individuals of all ages. It is important that adults seek routine dental treatment every 6 months. Adult dentistry allows patients to maintain their oral health. Routine visits to the dental provider’s office will help prevent oral health issues from arising.</p>
                                     </div>
                          
 
@@ -133,14 +154,14 @@
                         </div>
 
                         
-                        <div class="col-12">
+                       <div class="col-12">
                             <div class="the-news-wrap">
                                
-                                    <header class="entry-header">
+                                    <div class="entry-header">
                                     <h2>Geriatric Dentistry</h2>
-                                    </header>         
+                                    </div>         
                                     <div class="entry-content">
-                                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. </p>
+                                       <p>Focusing on the prevention, treatment and restoration of the elderly. Patients who are in need of restoration treatment, such as dentures or implants, should contact a dentist that provides specialized care for geriatric patients. Geriatric dentists are specialists in their field and can help resolve specific issues for elders.</p>
                                     </div>
                          
 
@@ -149,14 +170,14 @@
                         </div>
 
                         
-                        
+                     </div>    <!--region1-->   
                         
                         <div class="col-12">
                             <div class="the-news-wrap">
                                
-                                    <header class="entry-header">
+                                    <div class="entry-header">
                                     <h2>Our Treatment Team</h2>
-                                    </header>        
+                                    </div>        
                          
 
                               
@@ -173,16 +194,16 @@
                          <div class="col-12 col-md-4">
                             <div class="the-news-wrap">
                                 <figure class="post-thumbnail">
-                                    <a href="#"><img src="images/news-2.png" alt=""></a>
+                                   <img src="images/Mostafa.png" alt="Mostafa Barakzoy">
                                 </figure>
 
-                                <header class="entry-header">
-                                    <h3>Ben Green, DDS, MD</h3>
+                                <div class="team-header">
+                                    <h3>Mostafa Barakzoy</h3>
 
                                     <div class="post-metas d-flex flex-wrap align-items-center">
-                                        <div class="posted-date">Pediatric Dentistry</div>
+                                        <div class="team">Dentist</div>
                                     </div>
-                                </header>
+                                </div>
 
                               
                             </div>
@@ -190,19 +211,19 @@
                         
                         
                        
-                         <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4">
                             <div class="the-news-wrap">
                                 <figure class="post-thumbnail">
-                                    <a href="#"><img src="images/news-2.png" alt=""></a>
+                                    <img src="images/John-Noble.png" alt="John Noble">
                                 </figure>
 
-                                <header class="entry-header">
-                                    <h3>Ben Green, DDS, MD</h3>
+                                <div class="team-header">
+                                    <h3>John Noble</h3>
 
                                     <div class="post-metas d-flex flex-wrap align-items-center">
-                                        <div class="posted-date">Pediatric Dentistry</div>
+                                        <div class="team">Dentist</div>
                                     </div>
-                                </header>
+                                </div>
 
                               
                             </div>
@@ -211,83 +232,85 @@
                         
                         
                                
-                         <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4">
                             <div class="the-news-wrap">
                                 <figure class="post-thumbnail">
-                                    <a href="#"><img src="images/news-2.png" alt=""></a>
+                                    <img src="images/Ji-Chen.png" alt="Ji Chen">
                                 </figure>
 
-                                <header class="entry-header">
-                                    <h3>Ben Green, DDS, MD</h3>
+                                <div class="team-header">
+                                    <h3>Ji Chen</h3>
 
                                     <div class="post-metas d-flex flex-wrap align-items-center">
-                                        <div class="posted-date">Pediatric Dentistry</div>
+                                        <div class="team">Dentist</div>
                                     </div>
-                                </header>
+                                </div>
 
                               
                             </div>
                         </div>
                         
                         
+                        
+                        
+                        
+                                                       
+                        <div class="col-12 col-md-4">
+                            <div class="the-news-wrap">
+                                <figure class="post-thumbnail">
+                                    <img src="images/Mary.png" alt="Mary Tran-Wexler">
+                                </figure>
+
+                                <div class="team-header">
+                                    <h3>Mary Tran-Wexler</h3>
+
+                                    <div class="post-metas d-flex flex-wrap align-items-center">
+                                        <div class="team">Dentist</div>
+                                    </div>
+                                </div>
+
+                              
+                            </div>
+                        </div>
                         
                         
                         
                                  
-                         <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4">
                             <div class="the-news-wrap">
                                 <figure class="post-thumbnail">
-                                    <a href="#"><img src="images/news-2.png" alt=""></a>
+                                    <img src="images/Ben-Green.png" alt="Ben Green">
                                 </figure>
 
-                                <header class="entry-header">
-                                    <h3>Ben Green, DDS, MD</h3>
+                                <div class="team-header">
+                                    <h3>Ben Green</h3>
 
                                     <div class="post-metas d-flex flex-wrap align-items-center">
-                                        <div class="posted-date">Pediatric Dentistry</div>
+                                        <div class="team">Dentist</div>
                                     </div>
-                                </header>
+                                </div>
 
                               
                             </div>
                         </div>
                         
                         
-                        
-                               
-                         <div class="col-12 col-md-4">
-                            <div class="the-news-wrap">
-                                <figure class="post-thumbnail">
-                                    <a href="#"><img src="images/news-2.png" alt=""></a>
-                                </figure>
-
-                                <header class="entry-header">
-                                    <h3>Ben Green, DDS, MD</h3>
-
-                                    <div class="post-metas d-flex flex-wrap align-items-center">
-                                        <div class="posted-date">Pediatric Dentistry</div>
-                                    </div>
-                                </header>
-
-                              
-                            </div>
-                        </div>
-                        
+                
                         
                               
-                         <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4">
                             <div class="the-news-wrap">
                                 <figure class="post-thumbnail">
-                                    <a href="#"><img src="images/news-2.png" alt=""></a>
+                                    <img src="images/Parwin.png" alt="Parwin Shiran Singh">
                                 </figure>
 
-                                <header class="entry-header">
-                                    <h3>Ben Green, DDS, MD</h3>
+                                <div class="team-header">
+                                    <h3>Parwin Shiran Singh</h3>
 
                                     <div class="post-metas d-flex flex-wrap align-items-center">
-                                        <div class="posted-date">Pediatric Dentistry</div>
+                                        <div class="team">Dentist</div>
                                     </div>
-                                </header>
+                                </div>
 
                               
                             </div>
@@ -303,52 +326,66 @@
             <div class="col-12 col-lg-4">
                 <div class="sidebar">
           
-
-                    <div class="sidebar-cats">
+                <div role="complementary">  
+                   
                         <h2 class="widget-title">Contact Information</h2>
-
+                    
+                    
                         <div class="entry-content">
-                                       <p><b>Lorem ipsum dolor sit amet</b><br/> consectetur <br>adipiscing elit. Donec malesuada<br> lorem maximus mauris sceleri<br></p>
+                                       <p>
+                                        <span style="font-weight:bold;">LifeLong Dental Care - Berkeley</span><br/>
+                                           1860 Alcatraz Ave.Berkeley, CA 94703<br/> 
+                                        (510) 280-6080<br/>
+                                        Monday: 9:00 am – 5:00 pm<br/>
+                                        Friday: 9:00 am – 5:00 pm<br/>
+                                        </p>
+                        </div>
+
+                       <div class="entry-content">
+                                       <p>
+                                        <span style="font-weight:bold;">LifeLong Pinole Health Center</span><br/>
+                                        806 San Pablo Ave #1 Pinole, CA 94564<br/> 
+                                        (510) 981-4100<br/>
+                                        Monday-Friday: 9:00 am – 5:00 pm<br/>
+                                        </p>
                         </div>
                         
-                         <div class="entry-content">
-                                       <p><b>Lorem ipsum dolor sit amet</b><br/> consectetur <br>adipiscing elit. Donec malesuada<br> lorem maximus mauris sceleri<br></p>
+                       <div class="entry-content">
+                                       <p>
+                                        <span style="font-weight:bold;">LifeLong Brookside Dental Care </span><br/>
+                                           2023 Vale Rd.San Pablo, CA 94806<br/> 
+                                        (510) 231-9814<br/>
+                                        Wednesday: 9:00 am – 3:00 pm<br/>
+                                        </p>
                         </div>
                         
-                         <div class="entry-content">
-                                       <p><b>Lorem ipsum dolor sit amet</b><br/> consectetur <br>adipiscing elit. Donec malesuada<br> lorem maximus mauris sceleri<br></p>
+                       <div class="entry-content">
+                                       <p>
+                                        <span style="font-weight:bold;">LifeLong William Jenkins Dental Care </span><br/>
+                                        150 Harbour Way Richmond, CA 94801<br/> 
+                                        (510) 806-1801<br/>
+                                        Tuesday: 9:00 am – 5:00 pm<br/>
+                                        Thursday: 9:00 am – 5:00 pm<br/>
+                                        </p>
                         </div>
                         
-                    </div>
+                    
 
                   
 
          
                     
-                    <footer class="entry-footer mt-5">
-                                    <a class="button gradient-bg" href="#">Find Your Nearst Location</a>
-                    </footer>
-                    
+                 
+                                      
+                    </div>  
              
                 </div>
+                
             </div>
         </div>
     </div>
 
-    <div class="subscribe-banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-8 offset-lg-2">
-                    <h2>Subscribe to our newsletter</h2>
 
-                    <form>
-                        <input type="email" placeholder="E-mail address">
-                        <input class="button gradient-bg" type="submit" value="Subscribe">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <footer class="site-footer">
         <div class="footer-widgets">

@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
 body {
     color: #404040;
     font-size: 16px;
     line-height: 1.8;
-    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -719,10 +722,16 @@ a:hover, a:active {
     box-shadow: none;
 }
 
-.button.dark {
+/*.button.dark {
     border-color: transparent;
     color: #fff;
     background: #18a3eb;
+}*/
+
+.button.dark {
+    border-color: transparent;
+    color: #242C35;
+    background: #FCDF51;
 }
 
 .button.gradient-bg {
@@ -1415,7 +1424,7 @@ ul.tabs-nav .tab-nav.active {
     margin-top: 24px;
     font-size: 32px;
     font-weight: 600;
-    color: #404040;
+    color: #9C182F;
 }
 
 .the-news-wrap h3 {
@@ -1460,9 +1469,16 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .the-news-wrap .entry-content p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2;
-    color: #828282;
+    color: #242C35;
+}
+
+.the-news-wrap .entry-content a {
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #9C182F;
+    font-weight: bold;
 }
 
 /*--------------------------------------------------------------
@@ -1713,6 +1729,19 @@ ul.tabs-nav .tab-nav.active {
     padding: 100px 0;
 }
 
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.sidebar li a {
+    color: #828282;
+}
+
 /*
 # Search
 --------------------------------*/
@@ -1751,8 +1780,8 @@ ul.tabs-nav .tab-nav.active {
     margin-top: 20px;
     margin-bottom: 32px;
     font-size: 24px;
-    font-weight: 600;
-    color: #404040;
+    font-weight: bold;
+    color: #9C182F;
 }
 
 /*
@@ -2019,7 +2048,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .Accordion-trigger {
-  background: none;
+  background: #C3CAD3;
   color: hsl(0, 0%, 13%);
   display: block;
   font-size: 1rem;
@@ -2120,12 +2149,35 @@ input {
   width: 1px;
   height: 1px;
   top: auto;
+  background: #FCDF51;
+  font-size: 20px;
 }
 .screenreader-text:focus {
-  color: black;
+  color: #000;
   display: inline-block;
   height: auto;
   width: auto;
   position: static;
   margin: auto;
 }
+
+/*separate*/
+.separate
+{
+padding: 120px 0 0 0px;    
+}
+
+
+
+
+.team {
+    font-size: 16px;
+    color: #242C35;
+}
+
+.team-header h3{
+    font-size: 18px;
+    color: #242C35;
+    font-weight: bold;
+}
+
