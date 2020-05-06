@@ -669,6 +669,12 @@ a:hover, a:active {
     height: 500px;
 }
 
+#map_canvas {
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
 .map-distance p{
     font-weight: 500;
 }
@@ -1954,7 +1960,7 @@ ul.tabs-nav .tab-nav.active {
 --------------------------------------------------------------*/
 .site-footer {
     position: relative;
-    padding: 20px 0;
+    padding: 10px 0;
     /*background: url("images/footer-bg.png") no-repeat center #fff;*/
     /*background-size: cover;*/
     font-size: 14px;
@@ -2019,6 +2025,10 @@ ul.tabs-nav .tab-nav.active {
     font-size: 14px;
     background-color: #F6F7F9;
     padding: 10px 0;
+}
+
+.portal-footer{
+    /*padding: 0 -1000px;*/
 }
 
 
