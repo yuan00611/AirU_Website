@@ -1680,6 +1680,7 @@ ul.tabs-nav .tab-nav.active {
     font-size: 18px;
     font-weight: 600;
     color: #404040;
+    margin-bottom: 1rem;
 }
 
 .medical-team-wrap span{
@@ -1687,6 +1688,7 @@ ul.tabs-nav .tab-nav.active {
     font-size: 14px;
     font-weight: 600;
     color: #242C35;
+
 }
 
 .medical-team-wrap h3 {
