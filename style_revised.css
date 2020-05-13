@@ -537,6 +537,10 @@ a:hover, a:active {
     font-size: 24px;
 }
 
+.top-b-indi a:focus{
+    border: 1px solid #FFF;
+}
+
 
 
 @media screen and (max-width: 992px){
@@ -2033,6 +2037,10 @@ ul.tabs-nav .tab-nav.active {
     color: #FFF;
 }
 
+.foot-contact ul li a:focus{
+    border: 1px solid #FFF;
+}
+
 .foot-links ul {
     list-style: none;
     column-count: 2;
@@ -2045,6 +2053,10 @@ ul.tabs-nav .tab-nav.active {
 
 .foot-links ul li a {
     color: #FFF;
+}
+
+.foot-links ul li a:focus{
+    border: 1px solid #FFF;
 }
 
 
