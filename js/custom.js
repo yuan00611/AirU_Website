@@ -33,7 +33,7 @@ function initialize() {
         '<p>1860 Alcatraz Ave.Berkeley, CA 94703</p>' +        '</div>'],
         ['<div class="info_content">' +
         '<h3>LifeLong Pinole Health Center</h3>' +
-        '<p>806 San Pablo Ave #1 Pinole, CA 94564</p>' +        '</div>'],
+        '<p>806 San Pablo Avse #1 Pinole, CA 94564</p>' +        '</div>'],
         ['<div class="info_content">' +
         '<h3>LifeLong Brookside Dental Care</h3>' +
         '<p>2023 Vale Rd.San Pablo, CA 94806s</p>' +

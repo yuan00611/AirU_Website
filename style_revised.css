@@ -533,7 +533,7 @@ a:hover, a:active {
     
 }
 
-.top-b-indi h2{
+.top-b-indi a{
     font-size: 24px;
 }
 
@@ -1669,6 +1669,13 @@ ul.tabs-nav .tab-nav.active {
     color: #404040;
 }
 
+.medical-team-wrap span{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #242C35;
+}
+
 .medical-team-wrap h3 {
     margin-top: 10px;
     font-size: 14px;
@@ -2007,6 +2014,10 @@ ul.tabs-nav .tab-nav.active {
     width:64px;
 }
 
+.foot-contact ul li a{
+    color: #FFF;
+}
+
 .foot-links ul {
     list-style: none;
     column-count: 2;
@@ -2020,6 +2031,7 @@ ul.tabs-nav .tab-nav.active {
 .foot-links ul li a {
     color: #FFF;
 }
+
 
 .footer-2 {
     font-size: 14px;
