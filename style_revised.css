@@ -661,6 +661,19 @@ a:hover, a:active {
     text-align: left;  
 }
 
+.Testmonial{
+    background-color: #F6F7F9;
+}
+
+.testmonial .entry-content{
+    height: 350px;
+    background-color: #FFF;
+    padding: 25px;
+}
+
+#region3{
+    margin-bottom: 40px;
+}
 
 
 /*--------------------------------------------------------------
@@ -2360,7 +2373,7 @@ height: 100%;}
     font-weight: bold;
 }
 
-.post-thumbnail img{
+.servicesDoc img{
     border-radius: 20px;
 }
 
