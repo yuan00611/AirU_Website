@@ -2133,11 +2133,11 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .footer-2 a{
-    color: #242C35;
+    color: #242C35 ;
 }
 
 .footer-2 a:hover{
-    color: #9C182F;
+    color: #9C182F !important;
 }
 
 
