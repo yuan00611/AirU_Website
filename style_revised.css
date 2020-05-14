@@ -2380,7 +2380,7 @@ height: 100%;}
 /*--Link--*/
 
 .redLink:hover{
-    background-color: rgba(47,128,237, 0.5);
+    background-color: yellow;
     color: #2F80ED;
 }
 
