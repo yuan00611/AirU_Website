@@ -172,7 +172,7 @@ a:hover, a:active {
     font-size: 16px;
     font-weight: 600;
     line-height: 1;
-    /*color: #404040;*/
+    color: #242C35;
     text-decoration: none;
     transition: color .35s;
 }
@@ -387,7 +387,7 @@ a:hover, a:active {
 
 .site-navigation ul li a:hover,
 .site-navigation ul li.current-menu-item a {
-    color: #9C182F;
+    color: #9C182F !important;
     border-bottom: 3px solid #9C182F;
 }
 
@@ -2132,9 +2132,15 @@ ul.tabs-nav .tab-nav.active {
     padding: 10px 0;
 }
 
+.footer-2 a{
+    color: #242C35;
+}
+
 .footer-2 a:hover{
     color: #9C182F;
 }
+
+
 
 .footer-2 a:focus{
     outline: none;
@@ -2380,8 +2386,8 @@ height: 100%;}
 /*--Link--*/
 
 .redLink:hover{
-    background-color: yellow;
-    color: #2F80ED;
+/*     background-color: yellow; */
+    color: #2F80ED !important;
 }
 
 .redLink:focus{
